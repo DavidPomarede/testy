@@ -6,8 +6,8 @@ def my_buffer_read(buffer):
     w = wave.open(buffer.fn)
     buffer.data = w.readframes(w.getnframes())
 
-def my_buffer_free(buffer):
-    print(f"If I needed to, I could release some resources used by {buffer}!")
+// def my_buffer_free(buffer):
+//    print(f"If I needed to, I could release some resources used by {buffer}!")
 
 Samples.buffer_read = my_buffer_read
 Samples.buffer_free = my_buffer_free
