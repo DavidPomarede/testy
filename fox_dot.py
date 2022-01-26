@@ -2,7 +2,7 @@ from FoxDotPatterns.lib.Buffers import Samples, nil
 import wave
 
 def my_buffer_read(buffer):
-    print(f"I am loading resources for {buffer.fn}! Incidentally, this is buffer number {buffer.bufnum}.")
+//    print(f"I am loading resources for {buffer.fn}! Incidentally, this is buffer number {buffer.bufnum}.")
     w = wave.open(buffer.fn)
     buffer.data = w.readframes(w.getnframes())
 
