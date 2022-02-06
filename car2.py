@@ -44,7 +44,7 @@ with open('036-CAR01.json') as json_file:
     fig = go.Figure(data= graph_data, layout=layout)
     
     
-    fig.show()
+  //  fig.show()
     
     layout = go.Layout(
          title=car_type + ' with axis', 
