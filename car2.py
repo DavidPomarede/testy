@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 import numpy as np
 from google.colab import files
 uploaded = files.upload()
-//import pandas as pd
+import pandas as pd
 
 with open('036-CAR01.json') as json_file:
     data = json.load(json_file)
