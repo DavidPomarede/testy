@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
+import panda as pd
 
 # Make a 10 x 10 heatmap of some random data
 side_length = 10
