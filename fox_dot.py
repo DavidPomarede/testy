@@ -16,5 +16,5 @@ kick_drum = Samples.getBufferFromSymbol('x')
 # kick_drum.data contains the sample data as bytes.
 Samples.freeAll()
 
-//# If you're adding an attribute to buffers on load, you might want to add it to `nil` (the empty sample) too:
+# If you're adding an attribute to buffers on load, you might want to add it to `nil` (the empty sample) too:
 nil.data = b''
